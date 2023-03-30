@@ -7,10 +7,13 @@ import SignUpForm from './pages/auth/SignUpForm';
 import SignInForm from './pages/auth/SignInForm';
 
 
+
+
 function App() {
+
   return (
     <div className={styles.App}>
-     <NavBar />
+      <NavBar />
       <Container className={styles.Main}>
         <Switch>
           <Route exact path="/" render={() => <h1>Home page</h1>} />

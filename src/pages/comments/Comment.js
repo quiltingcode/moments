@@ -24,7 +24,7 @@ const Comment = (props) => {
 
   const handleDelete = async () => {
     try {
-      await axiosRes.delete(`/comments/${id}/`);
+      await axiosRes.delete(`/comments/${id}`);
       setPost((prevPost) => ({
         results: [
           {

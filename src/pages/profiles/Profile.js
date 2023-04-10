@@ -36,7 +36,12 @@ const Profile = (props) => {
                         unfollow
                     </Button>
                 ) : (
-                    <Button>follow</Button>
+                    <Button
+                        className={`${btnStyles.Button} ${btnStyles.Black}`}
+                        onClick={() => {}}
+                    >
+                        follow
+                    </Button>
                 )
             )}
         </div>
